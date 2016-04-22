@@ -60,7 +60,7 @@ def NDVI_Processing(image_path, resized_path):
         ax.patch.set_alpha(0.0)
 
         axes_img = ax.imshow(arr_ndvi,
-                      cmap = cm.gist_ncar, 
+                      cmap = cm.gist_ncar_r, 
                       vmin = vmin,
                       vmax = vmax,
                       aspect = 'equal',
